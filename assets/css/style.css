@@ -1,0 +1,100 @@
+@media only screen and (min-width: 400px) {
+
+    footer,
+    .top-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .try-for-free {
+        padding: .5rem 1.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+    .intro {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .card {
+        flex-direction: row-reverse;
+        text-align: start;
+        padding: 2rem 4rem;
+        gap: 4rem;
+    }
+
+    .card:nth-child(3) {
+        flex-direction: row;
+    }
+
+    .get-ready-card {
+        width: calc(100% - 20%);
+        left: 10%;
+    }
+
+    .footer-flex-container {
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem 5rem;
+        align-items: flex-start;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    footer svg {
+        margin-left: 4rem;
+    }
+
+    .top-section {
+        padding: 2rem 4rem;
+        background-image: url(../images/bg-hero-desktop.svg);
+    }
+
+    .intro {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: center;
+        text-align: start;
+        gap: 4rem;
+    }
+
+    .try-for-free {
+        padding: .7rem 4rem;
+    }
+
+    .get-started {
+        padding: 1rem 3rem;
+    }
+
+    .card {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .get-ready-card {
+        width: calc(100% - 65%);
+        left: 32.5%;
+    }
+
+    .footer-flex-container {
+        grid-template-columns: 2fr repeat(3, 1fr);
+        gap: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .copyright {
+        margin-top: 2rem;
+        text-align: right;
+    }
+
+}
